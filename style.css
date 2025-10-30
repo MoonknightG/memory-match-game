@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om Mishra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">OM</div>
+        <h2>Om Mishra</h2>
+        <p>Front-End Developer | MCA Student</p>
+        <div class="buttons">
+          <a href="#projects" class="btn primary">See My Work</a>
+          <a href="mailto:ommishraweb@gmail.com" class="btn secondary">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h3>Contact</h3>
+        <p><strong>Email:</strong> ommishraweb@gmail.com</p>
+        <p><strong>Phone:</strong> +91-8377067166</p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/om-mishra-ab691b272"
+             target="_blank"
+             rel="noopener noreferrer">
+             linkedin.com/in/om-mishra-ab691b272
+          </a>
+        </p>
+      </div>
+
+      <div class="skills">
+        <h3>Skills</h3>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Java</span>
+          <span>SQL</span>
+          <span>WordPress</span>
+          <span>SEO</span>
+        </div>
+      </div>
+
+      <div class="education">
+        <h3>Education</h3>
+        <p><strong>MCA</strong> — Amity University (Pursuing)</p>
+        <p><strong>BCA (CSE)</strong> — CCS University, 2024</p>
+        <a href="resume.pdf" class="btn resume" download>Download Resume</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section id="about">
+        <h1>Hi — I’m Om 👋</h1>
+        <p>
+          I’m an MCA student at Amity University with a BCA in CSE from Chaudhary Charan Singh University.
+          I build responsive websites and user-friendly experiences using modern web technologies.
+          I’ve completed internships in Front-End Development and SEO + WordPress.
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+          <h3>Front-End Developer Intern | CodeSoft, Noida</h3>
+          <p class="date">Aug 2024 – Nov 2024</p>
+          <ul>
+            <li>Developed and deployed responsive websites using HTML, CSS, and JS.</li>
+            <li>Improved user engagement by 30% through optimized UX and performance.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>SEO & WordPress Developer | Diligence Certification, Noida</h3>
+          <p class="date">June 2025 – Sep 2025</p>
+          <ul>
+            <li>Designed and developed responsive WordPress websites for company clients.</li>
+            <li>Implemented SEO strategies resulting in higher traffic and user interaction.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>1. Portfolio Website</h3>
+            <p>A modern personal portfolio built using HTML, CSS, and JavaScript showcasing my skills, projects, and contact info.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>2. Santra — E-Commerce Website</h3>
+            <p>A Myntra-style e-commerce project built with HTML, CSS, and JavaScript. Includes product listings, cart, and checkout pages.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn">GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>3. Memory Match Game</h3>
+            <p>A fun interactive JavaScript-based game that challenges memory and logic with a score tracker and timer.</p>
+            <div class="project-buttons">
+              <a href="#" target="_blank" class="btn">Live Demo</a>
+              <a href="#" target="_blank" class="btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2025 Om Mishra. Built with ❤️ using HTML, CSS & JS.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
